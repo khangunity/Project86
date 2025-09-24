@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ec66f2ea531eb1f4a9f9a69b2d5a68ee
+guid: 76eef70d61928ee48a9a832528327e35
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,9 +31,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Scene
-      takeName: Scene
-      internalID: -623603649343465320
+      name: Move Fast Down
+      takeName: Move Fast Down
+      internalID: -5805307983405887264
       firstFrame: 0
       lastFrame: 31
       wrapMode: 0

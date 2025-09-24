@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0546d5d8eb442e543ad360aa0c8d65a1
+guid: b861087be4ea6634899ec1064cce3faf
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,9 +31,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Scene
-      takeName: Scene
-      internalID: -623603649343465320
+      name: Speed Down
+      takeName: Speed Down
+      internalID: -2049372347365264467
       firstFrame: 0
       lastFrame: 124
       wrapMode: 0

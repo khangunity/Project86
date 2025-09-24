@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db70e9422b71b894dadb5d09e473251c
+guid: 5a8fb3aa8bf8edb419ce459e096e9e9c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,9 +31,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Scene
-      takeName: Scene
-      internalID: -623603649343465320
+      name: Stop Up
+      takeName: Stop Up
+      internalID: -524512171756242452
       firstFrame: 0
       lastFrame: 90
       wrapMode: 0
@@ -43,7 +43,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 0
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0

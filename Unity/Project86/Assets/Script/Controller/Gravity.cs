@@ -15,6 +15,7 @@ public class Gravity : MonoBehaviour
 
     [SerializeField] bool IsGrounded = false;
     [SerializeField] float verticalVelocity = 0f;
+    
 
     void Start()
     {

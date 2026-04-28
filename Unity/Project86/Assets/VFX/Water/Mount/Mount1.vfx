@@ -40,7 +40,7 @@ MonoBehaviour:
     x: 852
     y: -1433
     width: 474
-    height: 2604
+    height: 2628
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -882,7 +882,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 3
     m_Space: -1
   m_Property:
     name: A
@@ -916,7 +916,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4.7
+      m_SerializableObject: 2.5
     m_Space: -1
   m_Property:
     name: B
@@ -1275,7 +1275,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":0.0,"y":-80.0,"z":0.0}}'
+      m_SerializableObject: '{"vector":{"x":0.0,"y":-200.0,"z":0.0}}'
     m_Space: 1
   m_Property:
     name: Force
@@ -1581,7 +1581,7 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link: []
-  blendMode: 1
+  blendMode: 0
   cullMode: 0
   zWriteMode: 0
   zTestMode: 0
@@ -1766,7 +1766,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"7da9a8df4f52c744dbee23310eac4938","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"3f0b27fa0a9267346b36465dc2808773","type":3}}'
     m_Space: -1
   m_Property:
     name: mainTexture
@@ -1832,7 +1832,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.FlipBook, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":16,"y":16}'
+      m_SerializableObject: '{"x":8,"y":8}'
     m_Space: -1
   m_Property:
     name: flipBookSize
@@ -2123,7 +2123,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":150.0,"y":20.0,"z":70.0}}'
+      m_SerializableObject: '{"vector":{"x":220.0,"y":20.0,"z":70.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -2293,7 +2293,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":180.0,"y":-20.0,"z":-70.0}}'
+      m_SerializableObject: '{"vector":{"x":250.0,"y":-20.0,"z":-70.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -2697,7 +2697,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":0.0,"value":1.0,"inTangent":-0.012167200446128846,"outTangent":-0.012167200446128846,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.990875244140625,"value":0.0,"inTangent":-2.695695400238037,"outTangent":-2.695695400238037,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"frames":[{"time":0.0,"value":1.0,"inTangent":-0.012167200446128846,"outTangent":-0.012167200446128846,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.990875244140625,"value":0.5,"inTangent":-1.3776493072509766,"outTangent":-1.3776493072509766,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     m_Space: -1
   m_Property:
     name: Scale_x
@@ -2731,7 +2731,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":0.0,"value":1.0,"inTangent":-0.012167200446128846,"outTangent":-0.012167200446128846,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.990875244140625,"value":0.0,"inTangent":-2.695695400238037,"outTangent":-2.695695400238037,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"frames":[{"time":0.0,"value":1.0,"inTangent":-0.012167200446128846,"outTangent":-0.012167200446128846,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.990875244140625,"value":0.5,"inTangent":-1.3776493072509766,"outTangent":-1.3776493072509766,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     m_Space: -1
   m_Property:
     name: Scale_y

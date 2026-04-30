@@ -1,11 +1,13 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class TriggerAmmo : MonoBehaviour
 {
     [SerializeField] string[] LayerCollider;
+    [SerializeField] float distance;
 
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision  other)
     {
         string objectLayerName = LayerMask.LayerToName(other.gameObject.layer);
 
@@ -13,7 +15,16 @@ public class TriggerAmmo : MonoBehaviour
         {
             if (objectLayerName == LayerCollider[i])
             {
-                SpawnExplosion.instance.location.position = transform.position;
+
+                if(LayerCollider[i] == "Terrain")
+                {
+                    SpawnExplosion.instance.location.position = transform.position + transform.up * distance;
+                    SpawnExplosion.instance.location.rotation = Quaternion.Euler(90f, 0f, 0f);
+                }
+                else
+                {
+                    SpawnExplosion.instance.location.position = transform.position - transform.forward * distance;
+                }
                 SpawnExplosion.instance.countSpawn += 1;
 
                 NoiseExplosion.instance.targetPosition = transform.position;

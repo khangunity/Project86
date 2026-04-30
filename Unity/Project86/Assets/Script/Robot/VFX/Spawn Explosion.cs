@@ -31,7 +31,8 @@ public class SpawnExplosion : MonoBehaviour
         if(countSpawn > 0 && location != null)
         {
             explosionClone = Instantiate(explosion, location.position, explosion.transform.rotation, Parent.transform);
-            explosionClone.transform.position = location.position - location.forward * distance;
+            explosionClone.transform.position = location.position;
+            explosionClone.transform.rotation = location.rotation;
             explosionClone.SetActive(true);
 
             countSpawn -= 1;

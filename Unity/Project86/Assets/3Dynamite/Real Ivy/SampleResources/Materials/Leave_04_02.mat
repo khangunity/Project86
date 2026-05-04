@@ -103,7 +103,8 @@ Material:
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _Amplitude: 0.35
+    - _Amplitude: 0.5
+    - _BackLight: 0.1
     - _BlendMode: 0
     - _BumpScale: 1
     - _Center: -0.5
@@ -114,21 +115,23 @@ Material:
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 0
     - _DstBlend: 0
+    - _EmissionStrength: 0
     - _Float1: 1
-    - _Frequency: 0.5
+    - _Frequency: 3
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
+    - _LightStrength: 0.2
     - _Metallic: 0
     - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ParallaxIntensity: 0.0217
-    - _Radius: 0.2
+    - _Radius: 0.5
     - _ReceivesSSR: 1
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.388
+    - _Smoothness: 0.1
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.137
     - _SpecularHighlights: 1

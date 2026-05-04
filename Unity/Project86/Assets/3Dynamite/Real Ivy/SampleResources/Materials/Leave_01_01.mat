@@ -125,6 +125,7 @@ Material:
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _Amplitude: 0.35
+    - _BackLight: 0.4
     - _BlendMode: 0
     - _BumpScale: 1
     - _Center: -0.5
@@ -135,6 +136,7 @@ Material:
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 0
     - _DstBlend: 0
+    - _EmissionStrength: 0.06
     - _EnableFogOnTransparent: 1
     - _Float0: 2.1
     - _Float1: 0.075
@@ -150,6 +152,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _LightStrength: 0.5
     - _Metallic: 0.08
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -161,7 +164,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.407
+    - _Smoothness: 0.3
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.23
     - _SpecularHighlights: 1
@@ -193,7 +196,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 0.82665133, b: 0.495283, a: 1}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

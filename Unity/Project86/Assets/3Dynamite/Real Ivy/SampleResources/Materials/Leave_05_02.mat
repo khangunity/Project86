@@ -104,6 +104,7 @@ Material:
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _Amplitude: 0.35
+    - _BackLight: 0.6
     - _BlendMode: 0
     - _BumpScale: 1
     - _Center: -0.5
@@ -114,10 +115,12 @@ Material:
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 0
     - _DstBlend: 0
+    - _EmissionStrength: 0
     - _Frequency: 0.5
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
+    - _LightStrength: 0.75
     - _Metallic: 0
     - _Mode: 1
     - _OcclusionStrength: 1

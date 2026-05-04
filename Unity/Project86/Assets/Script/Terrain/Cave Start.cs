@@ -7,6 +7,7 @@ public class CaveStart : MonoBehaviour
     public GameObject playerRoot;
     public Volume globalVolume;
     public GameObject light;
+    public GameObject shadow;
     public float speed = 2f;
     public float cooldown = 1f; // thời gian chờ trigger lại
 
@@ -60,6 +61,7 @@ public class CaveStart : MonoBehaviour
             }
         }
         light.SetActive(insideCave);
+        shadow.SetActive(!insideCave);
     }
 
     private void OnTriggerExit(Collider other)

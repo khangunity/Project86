@@ -197,7 +197,7 @@ Material:
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FoamColor: {r: 0.76708794, g: 0.9622642, b: 0.9604271, a: 1}
+    - _FoamColor: {r: 0.30588242, g: 0.8377288, b: 0.9882353, a: 1}
     - _FoamSpeed: {r: 0.05, g: 0.075, b: 0, a: 0}
     - _FoamSpeed_1: {r: 0.075, g: 0.075, b: 0, a: 0}
     - _FoamTilling: {r: 8, g: 4, b: 0, a: 0}

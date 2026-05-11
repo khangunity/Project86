@@ -33,7 +33,7 @@ MonoBehaviour:
     stiffness: 0.03
     optAngleBias: 15
     leaveEvery: 2
-    randomLeaveEvery: 300
+    randomLeaveEvery: 30
     buffer32Bits: 0
     halfgeom: 1
     sides: 3

@@ -84,7 +84,7 @@ Material:
     - EFFECT_EXTRA_TEX: 1
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 1
-    - _AlphaClipThreshold: 0.15
+    - _AlphaClipThreshold: 0.25
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
@@ -110,7 +110,7 @@ Material:
     - _Glossiness: 0
     - _HueVariationKwToggle: 1
     - _Metallic: 0
-    - _Mip_Bias: 0
+    - _Mip_Bias: 1
     - _NormalMapKwToggle: 1
     - _OldHueVarBehavior: 0
     - _OpaqueCullMode: 2
@@ -138,7 +138,7 @@ Material:
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
-    - _SubsurfaceIndirect: 0.42
+    - _SubsurfaceIndirect: 0
     - _SubsurfaceKwToggle: 1
     - _SubsurfaceScale: 1
     - _SupportDecals: 0
@@ -153,7 +153,7 @@ Material:
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
     - _WINDQUALITY: 3
-    - _WindQuality: 4
+    - _WindQuality: 1
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZTestDepthEqualForOpaque: 3
@@ -164,7 +164,7 @@ Material:
     m_Colors:
     - Diffusion_Profile_Asset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37, a: 0.00018220427}
     - _AO_Remap: {r: 0.22, g: 0.6, b: 0, a: 0}
-    - _Color: {r: 0.8679245, g: 0.8466358, b: 0.8466358, a: 1}
+    - _Color: {r: 1, g: 0.99159145, b: 0.8066038, a: 1}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariationColor: {r: 0.5943396, g: 0.50214976, b: 0.31623352, a: 0.50980395}

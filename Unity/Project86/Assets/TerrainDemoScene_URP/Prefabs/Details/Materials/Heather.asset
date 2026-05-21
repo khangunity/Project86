@@ -111,8 +111,8 @@ Material:
     m_Floats:
     - Animation_Cutoff: 20
     - Boolean_42a44e347a464bd59e694ae00ebc61d5: 0
-    - Distance_Fade_End: 500
-    - Distance_Fade_Start: 50
+    - Distance_Fade_End: 1000
+    - Distance_Fade_Start: 500
     - Dither_Scale: 1.5
     - Enable_Blend_Terrain_Color: 0
     - SPLATMAP_CHANNEL: 0

@@ -95,8 +95,8 @@ Material:
     m_Ints: []
     m_Floats:
     - Animation_Cutoff: 25
-    - Distance_Fade_End: 600
-    - Distance_Fade_Start: 50
+    - Distance_Fade_End: 1000
+    - Distance_Fade_Start: 500
     - Dither_Scale: 1.5
     - Enable_Blend_Terrain_Color: 0
     - Terrain_Blend_A: 0
@@ -105,7 +105,7 @@ Material:
     - Terrain_Blend_R: 0
     - Vector1_593c5cea6c4a42e993ed03ced4685732: 0.5
     - Vector1_8651797e3e304e108dbd25f9d5a426ba: 0.5
-    - Vector1_a5b8b09028ce49a39f4d090894c89e22: 0.437
+    - Vector1_a5b8b09028ce49a39f4d090894c89e22: 0.5
     - Vector1_a6983181c8dc4691ba6a28a34c4223a6: 1
     - Wind_Blast: 0.05
     - Wind_Intensity: 0.2
@@ -141,7 +141,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _FadeBias: 0.5
     - _ForceForwardEmissive: 0
-    - _GrassNormal: 0
+    - _GrassNormal: 1
     - _GroundFalloff: 1
     - _OpaqueCullMode: 2
     - _QueueControl: 1

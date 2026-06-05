@@ -139,7 +139,7 @@ Material:
     - _FoamScale: 50
     - _FoamScale_1: 50
     - _Fresnel: 3
-    - _NomalPower: 5
+    - _NomalPower: 10
     - _NormalStrength: 0.01
     - _Normal_Strength: 0.2
     - _OpaqueCullMode: 2
